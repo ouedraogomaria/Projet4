@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 25px;
 }
 
 .navbar {
@@ -677,7 +677,11 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 10.9px;
+}
+p.auteur{
+    font-size: 23px;
+    font-weight: 200;
 }
 
 .tight-width-whitespace {
@@ -709,7 +713,7 @@ h2 {
     line-height: 1.4em;
 }
 
-h2 {
+h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -733,6 +737,12 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+}
+
+.citation{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .white {
@@ -776,6 +786,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 16px;
 }
 
 .btn-atomic-tangerine {
@@ -905,6 +916,10 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+    .tc-white {
+        font-size: 13px;
+    }
+    
     .b-parallax {
         background-attachment: scroll;
     }
@@ -931,6 +946,7 @@ h4 {
         padding-left: 15px;
         width: 100%;
     }
+    
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
