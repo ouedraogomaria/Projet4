@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255,);
 }
 
 .d-bloc .a-btn:hover,
@@ -443,6 +443,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 15px;
 }
 
 .btn {
@@ -659,7 +660,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-weight: 900;
 }
 
 .hero-bloc-text-sub {
@@ -746,7 +747,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #333!important;
+    font-weight: 900;
+    font-size: 13px;
 }
 
 .portfolio-thumb {
@@ -785,13 +788,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-    font-size: 16px;
+    color: #f2f2f2!important;
+    font-size: 20px;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333!important;
 }
 
 .btn-atomic-tangerine:hover {
