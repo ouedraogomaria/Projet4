@@ -100,7 +100,8 @@ a:hover {
 }
 
 .d-bloc {
-    
+    color: rgba(255, 255, 255, .7);
+    font-size: 20px; 
 }
 
 .d-bloc button:hover {
@@ -750,7 +751,7 @@ h4 {
 .white {
     color: #333!important;
     font-weight: 900;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .portfolio-thumb {
@@ -835,11 +836,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -921,7 +922,6 @@ h4 {
     #disqus_thread {
         padding-left: 15px!important;
         padding-right: 15px!important;
-        font-size: 15px;
     }
     .tc-white {
         font-size: 13px;
