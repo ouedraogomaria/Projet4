@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -101,7 +100,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
-    font-size: 20px; 
+    font-size: 25px; 
 }
 
 .d-bloc button:hover {
@@ -662,7 +661,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .hero-bloc-text-sub {
@@ -680,10 +679,10 @@ a {
 }
 
 p {
-    font-size: 10.9px;
+    font-size: 12.5px;
 }
 p.auteur{
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 200;
 }
 
@@ -743,7 +742,7 @@ h4 {
 }
 
 .citation{
-    font-size: 23px;
+    font-size: 22px;
     font-style: italic;
     font-weight: 600;
 }
@@ -751,7 +750,7 @@ h4 {
 .white {
     color: #FFFFFF!important;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -923,10 +922,18 @@ h4 {
         padding-left: 15px!important;
         padding-right: 15px!important;
     }
+    .white{
+        font-size: 11.5px;
+    }
     .tc-white {
         font-size: 13px;
     }
-    
+    .ltc-white{
+        font-size: 15px;
+    }
+    .citation{
+        font-size: 18px;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
