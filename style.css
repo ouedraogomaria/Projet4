@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 40px 50px;
+    padding: 80px 50px;
 }
 
 .bloc-md {
@@ -285,7 +285,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 15px;
+    font-size: 24px;
 }
 
 .navbar {
@@ -586,7 +586,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    margin-bottom: 0;
 }
 
 .close-lightbox {
@@ -633,7 +633,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 30px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -749,9 +749,9 @@ h4 {
 }
 
 .white {
-    color: #333!important;
+    color: #FFFFFF!important;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
@@ -770,7 +770,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(18, 17, 15, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
