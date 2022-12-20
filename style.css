@@ -99,7 +99,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255,);
     font-size: 25px; 
 }
 
@@ -708,6 +708,7 @@ p.auteur{
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    font-size: 40px;
 }
 
 h2 {
@@ -923,7 +924,7 @@ h4 {
         padding-right: 15px!important;
     }
     .white{
-        font-size: 11.5px;
+        font-size: 12px;
     }
     .tc-white {
         font-size: 13px;
