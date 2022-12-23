@@ -756,7 +756,6 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 100%;
-    height: 300px;
 }
 
 .portfolio-row {
@@ -841,7 +840,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -865,13 +863,13 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -894,6 +892,7 @@ h4 {
         display: block;
         width: 100%;
     }
+    
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
@@ -913,8 +912,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 15px!important;
-        padding-right: 15px!important;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
     .white{
         font-size: 12px;
